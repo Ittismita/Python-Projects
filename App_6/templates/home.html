@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+</head>
+<body>
+<h1>Weather Data API</h1>
+<p>URL format:http://127.0.0.1:5000/api/v1/station/date</p>
+<p>URL format:http://127.0.0.1:5000/api/v1/10/2002-10-12</p>
+<p>URL format for a single station:http://127.0.0.1:5000/api/v1/10</p>
+<p>URL format for a single YEAR:http://127.0.0.1:5000/api/v1/year/10/1988</p>
+<h3>List of all stations available</h3>
+<p>{{data|safe}}</p>
+<!--by default template engine of flask
+doesn't render html files as html but as plain strings, so we used safe keyword
+ with the | to allow the template engine of flask render it as html-->
+
+</body>
+</html>
