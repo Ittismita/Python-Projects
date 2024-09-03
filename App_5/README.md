@@ -1,2 +1,2 @@
-What is this project?
-this project is about extracting data from an API and sending it to email.
+
+This project is about extracting data from an API and sending it to email.
